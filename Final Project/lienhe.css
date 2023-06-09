@@ -1,0 +1,275 @@
+.body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #e97f7f;
+} 
+.body::-webkit-scrollbar-thumb {
+    background-color: #e71b1b;
+    
+}
+.body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(92, 67, 67, 0.3);
+    background-color: #F5F5F5;
+}
+.back{
+    background-color: #ffde94;
+    padding-bottom: 50px;
+}
+.khung1{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.bentrong{
+    margin: 0 auto;
+}
+
+.lau5{
+    width: 95%;
+    font-family: 'Roboto', sans-serif;
+}
+.lhe{
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+}
+.thongtin{
+    font-size: 17px;
+    font-family: 'Bungee', cursive;
+
+}
+.fa-map-marker-alt{
+    padding-right: 5px;
+}
+.ngang{
+    display: flex;
+    margin: 0 auto;
+}
+.khung2{
+    margin: 0 auto ;
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+input, textarea{
+    background-color: #fac437;
+    border-radius: 20px ;
+    border: 1px solid #fac437;
+    padding: 10px 10px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0px;
+}
+.gui{
+    border: 1px solid #c91133;
+    background-color: #c91133;
+    color: white;
+}
+
+.khung3{
+    width: 100%;
+}
+
+.mess{
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-family: 'Bungee', cursive;
+    font-size: 80%;
+    position: relative;
+    top: 20px;
+    background-color: #C91133;
+}
+.mess:hover{
+    color: brown;
+    background-color: #fac437;
+    transition: 1s;
+}
+footer{
+    position: relative;
+    top: 8px;
+    margin-top: -10px;
+    background-color:#C81F34;
+}
+.comment{
+    margin-bottom: 50PX;
+}
+.logofooter{
+    position: relative;
+    width:12%;
+    margin: 0 2% 0 2%;    
+    margin-top:40px ;
+    float: left;
+    clear: both;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.thongtindiachi{
+    color: white;
+    padding-left: 0;
+    width: 26%;
+    padding: 40px 0 0px 0;
+    margin-left: 17%;
+    font-family: 'Roboto', sans-serif;
+}
+#tongdai, #hopthu, #guiphanhoi{
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+#diachi, #feedback{
+    font-family: 'Roboto', sans-serif;
+}
+.guitn{
+    font-size: 25px;
+    font-family: 'Bungee', cursive;
+}
+#sodienthoai{
+    width: 20%;
+    height: 21%;
+    position: relative;
+    top:-250px;
+    right: 32%;
+    float: right;
+}
+.chinhsach{
+    width: 250px;
+    float: right;
+   margin-top: -140px ;
+   position: relative;
+   right: 9%; 
+   font-family: 'Roboto', sans-serif;
+}
+.quydinh{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.hayketnoi{
+    font-weight: bolder;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Bungee', cursive;
+    color: white;
+    text-align: center;
+    display: block;
+    right: 0;
+    margin-left: 110%;
+    margin-top: -200px;
+    position: relative;
+}
+.iconfab{
+    position: relative;
+    top:  10px;
+    right: -135%;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top:15px ;
+    width: 50px;
+    margin: 0 5px;
+    border-radius: 30px;
+    background-color: rgb(255, 214, 29);
+}
+.fa-google1{
+    position: relative;
+    top:  10px;
+    right: -135%;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top:15px ;
+    width: 50px;
+    margin: 0 5px;
+    border-radius: 30px;
+    background-color: rgb(255, 214, 29);
+}
+@media screen and (max-width:1000px){
+    .logofooter{
+        display: none;
+    }
+    .thongtindiachi{
+        margin-left:20px ;
+    }
+    #sodienthoai{
+        left: -40%;
+    }
+    .chinhsach{
+        position: relative;
+        left: -15%;
+    }
+}
+@media screen and (max-width:800px){
+    .an800{
+        display: none;
+    }
+    .ngang{
+        width: 95%;
+    }
+    .khung1{
+        padding-left: 15px;
+        width: 95%;
+    }
+    .chinhsach{
+        position: relative;
+        top: -100px;
+    }
+    #sodienthoai{
+        display: none;
+    }
+    .map{
+        width: 100%;
+    }
+    
+    textarea{
+        width: 85%;
+    }
+}  
+@media screen and (max-width:500px){
+    input{
+    width: 30%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:700px){
+   
+    .ngang{
+        width: 100%;
+        padding: 0;
+        display: block;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: -5px;
+    }
+    .lhe,.thongtin,.lau5,form{
+        padding-left: 15px;
+        width: 90%;
+    }
+    .guitn{
+        padding-left:0 ;
+        font-family: 'Bungee', cursive;
+    }
+    .khung2{
+        width: 80%;
+    }
+    input{
+        margin-left: 1px;
+        padding-right: 173px;
+    }
+    .gui{
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    input, textarea{
+        width: 90%;
+        padding: 10px 0 ;
+        padding-left: 10px;
+    }
+}

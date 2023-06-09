@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gà Giòn Vui Vẻ - Jollibee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menu chính.css">
+    <link rel="stylesheet" href="menumonan.css">
+    <link rel="stylesheet" href="gagionvuive.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body class="body">
+    
+    <nav id="nav-menu1">
+        <a href=""></a> <img id="logo-menu" src="Image/Menu 1/LOGOJOLLIBEE.png" alt=""> 
+            <ul id="ul-menu1" class="scoll">
+                <span class="click"> 
+                <i class="fas fa-times"></i>
+                </span>
+                <span class="vietnamandenglish">
+                 <a class=" vn" href="">VN</a> <a class=" eng" href="">/ENG</a> 
+                </span>
+                <li class="li-menu1 trangchu"> <a class="a-menu1" href="gagionvuive.html">TRANG CHỦ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="vejollibee1.html">VỀ JOLLIBEE</a> </li>
+                <li class="li-menu1 dropbox"> <a style="  background-color: #F4D2D6;color: #C81F34;" class="a-menu1" href="combo.html">THỰC ĐƠN</a>
+                
+                <ul class="menu-xo-xuong">
+                    <li class="li-xo-xuong"><a class="a-xo-xuong" href="combo.html"> <img class="hinh-trong-drop" src="Image/Menu 1/combo.png" alt=""  >COMBO</a> </li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="gagionvuive.html"><img class="hinh-trong-drop" src="Image/Menu 1/ga-gion-vui-ve.png" alt=""  >GÀ GIÒN VUI VẺ</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Gà Sốt Cay.html"><img class="hinh-trong-drop" src="Image/Menu 1/ga-sot-cay.png" alt=""  > GÀ SỐT CAY</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Mỳ Ý Sốt Bò Hầm.html"><img class="hinh-trong-drop" src="Image/Menu 1/mi-y.png" alt=""  >MỲ Ý SỐT BÒ HẦM</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="BurgerVaCơm.html"><img class="hinh-trong-drop" src="Image/Menu 1/burger-sandwich.png" alt=""  >BURGER & CƠM</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Phần Ăn Phụ.html"><img class="hinh-trong-drop" src="Image/Menu 1/phan-an-phu.png" alt=""  >PHẦN ĂN PHỤ</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Món Tráng Miệng.html"><img class="hinh-trong-drop" src="Image/Menu 1/mon-trang-mieng.png" alt=""  >MÓN TRÁNG MIỆNG</a></li>
+                </ul>
+            </li>
+                <li class="li-menu1"> <a class="a-menu1" href="khuyenmai.html">KHUYẾN MÃI</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="dichvu.html">DỊCH VỤ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="tintuc.html">TIN TỨC</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="cửa hàng.html">CỬA HÀNG</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="lienhe.html">LIÊN HỆ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="tuyển dụng.html">TUYỂN DỤNG</a> </li>
+                <li  class="li-menu1 icon-menu-an"><i class=" fab1 fab fa-facebook-f"></i><i class="fab1 fab fa-twitter"></i><i class="fab1 fab fa-google"></i></li>
+            </ul>
+            
+            <img id="hotline" src="Image/Menu 1/Hotline.png" alt="">
+            <div class="touch">
+                <span class="gach"></span>
+                <span class="gach"></span>
+                <span class="gach"></span>
+            </div>
+        </nav>
+        <div class="login"><i class="fas fa-user"></i><a class="dangnhapdangki" href="">Đăng ký / Đăng nhập</a></i>
+             <a class="subvn" href="">VN</a> <a class="subeng" href="">| ENG</a> 
+        </div>
+        <script>
+            const touch = document.querySelector(".touch");
+            const menu=document.querySelector("#ul-menu1"); 
+            touch.addEventListener("click", mobiMenu);
+            function mobiMenu(){
+                touch.classList.toggle("active");
+                menu.classList.toggle("active")
+            }
+            const click = document.querySelector(".click");
+            const ham=document.querySelector("#ul-menu1"); 
+            click.addEventListener("click", mobiMenu);
+            function mobiMenu(){
+                click.classList.toggle("active");
+                ham.classList.toggle("active")
+            }
+        </script>
+      <div>
+        <img class="backgro" src="Image/combo/bacgr.jpg" alt="">
+    </div >
+    <nav class="nav-combo">
+       
+        <ul class="ul-combo text-center">
+          <div class="flextren">
+             <li class="li-combo licombo2"><a  class="a-combo" href="combo.html">COMBO</a></li>
+             <li  style="background-color: #F4D069;"  class="li-combo licombo2"><a style="color: #CE181F; " class="a-combo" href="gagionvuive.html">GÀ GIÒN VUI VẺ</a></li>
+             <li class="li-combo licombo2"><a class="a-combo" href="Gà Sốt Cay.html">GÀ SỐT CAY</a></li>
+             <li class="li-combo licombo2"><a class="a-combo" href="Mỳ Ý Sốt Bò Hầm.html">MỲ Ý SỐT BÒ HẦM</a></li>
+             <li class="li-combo bogo1 licombo2"><a class="a-combo" href="BurgerVaCơm.html">BURGER & CƠM</a></li>
+            
+            </div>
+            <div class="xuong-dong">
+            <li class="li-combo bogo2 licombo2"><a class="a-combo" href="BurgerVaCơm.html">BURGER & CƠM</a></li>
+             <li class="li-combo licombo1 phanphu"><a class="a-combo" href="Phần Ăn Phụ.html">PHẦN ĂN PHỤ</a></li>
+             <li class="li-combo licombo1 trangmieng"><a class="a-combo" href="Món Tráng Miệng.html">MÓN TRÁNG MIỆNG</a></li>
+         </div>   
+            </ul>
+       
+    </nav>
+     <div>
+     <a class="dattheonhom" href="">ĐẶT HÀNG THEO NHÓM</a>
+     </div>
+    <div>
+    
+    <div class="hang1">
+        
+        
+        <div class="border-cover trai-phai-tren">
+            <img class="hinh-hang-1 hinh-hang-1-1 " src="Image/Gà Giòn Vui Vẻ/ga1.png" alt="">
+            <p class="ten-mon-an ga---1 chu-hang-mot">2 MIẾNG GÀ GIÒN</p>
+            <p class="gia-mon-an">60.000 đ</p>
+            <a class="dat-hang-nao" href="">ĐẶT HÀNG</a>
+        </div>
+        <div class="border-cover tren-phai ">
+            <img class="hinh-hang-1 hinh-hang-1-1" src="Image/Gà Giòn Vui Vẻ/gà 2.png" alt="">
+            <p class="ten-mon-an ga---2 chu-hang-mot">4 MIẾNG GÀ GIÒN</p>
+            <p class="gia-mon-an">116.000 đ</p>
+            <a class="dat-hang-nao" href="">ĐẶT HÀNG</a>
+        </div>
+        <div class="border-cover tren-phai">
+            <img class="hinh-hang-1 hinh-hang-1-1" src="Image/Gà Giòn Vui Vẻ/gà 3.png" alt="">
+            <p class="ten-mon-an ga---3 chu-hang-mot">6 MIẾNG GÀ GIÒN</p>
+            <p class="gia-mon-an gia-174k">174.000 đ</p>
+            <a class="dat-hang-nao" href="">ĐẶT HÀNG</a>
+        </div>
+    </div>
+    <div class="hang2">
+        <div class="border-cover  tren-trai">
+            <img class="hinh-hang-1 " src="Image/Gà Giòn Vui Vẻ/gà 7.png" alt="">
+            <p class="ten-mon-an  g----5 chu-hang-2-2">C4 - CƠM GÀ GIÒN + NƯỚC NGỌT</p>
+            <p class="gia-mon-an dat-hang-c4">45.000 đ</p>
+            <a class="dat-hang-nao dat-g5" href="">ĐẶT HÀNG</a>
+        </div>
+        <div class="border-cover trai-phai-tren">
+            <img class="hinh-hang-1 hinh-hang-2-1" src="Image/Gà Giòn Vui Vẻ/gà 4.jpg" alt="">
+            <p class="ten-mon-an chu-hang-2-1" >CƠM GÀ GIÒN (1 MIẾNG GÀ GIÒN, CƠM VÀ XÀ LÁCH)</p>
+            <p class="gia-mon-an ">40.000 đ</p>
+            <a class="dat-hang-nao dat-g4" href="">ĐẶT HÀNG</a>
+        </div>
+        
+        <div class="border-cover tren-phai">
+            <img class="hinh-ga-5-6 hinh-hang-2-3 " src="Image/Gà Giòn Vui Vẻ/gà 8.png" alt="">
+            <p class="ten-mon-an g----6 chu-hang-2-3">C3 - 1 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT</p>
+            <p class="gia-mon-an ">50.000 đ</p>
+            <a class="dat-hang-nao dat-g6" href="">ĐẶT HÀNG</a>
+        </div>
+    </div>
+    <div class="hang3">
+        <div class="border-cover mat-duoi tren-trai">
+            <img class="hinh-hang-1  mot-mieng-ga" src="Image/Gà Giòn Vui Vẻ/gà 9.jpg" alt="">
+            <p class="ten-mon-an chu-hang-3-1 g----7">1 MIẾNG GÀ GIÒN</p>
+            <p class="gia-mon-an">30.000 đ</p>
+            <a class="dat-hang-nao" href="">ĐẶT HÀNG</a>
+        </div>
+        <div class="border-cover  trai-phai-tren mat-duoi" >
+            <img class="hinh-hang-1 hinh-hang-3-2" src="Image/Gà Giòn Vui Vẻ/gà 6.png" alt="">
+            <p class="ten-mon-an com-ga-gion1 g----8">CƠM GÀ GIÒN + SÚP BÍ ĐỎ + NƯỚC NGỌT</p>
+            <p class="gia-mon-an">50.000 đ</p>
+            <a class="dat-hang-nao" href="">ĐẶT HÀNG</a>
+        </div>
+        <div class="border-cover tren-phai mat-duoi border-mobile">
+            <img class="hinh-hang-1 hinh-ga-3-3" src="Image/Gà Giòn Vui Vẻ/gà 5.png" alt="">
+            <p class="ten-mon-an g----9">2 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT</p>
+            <p class="gia-mon-an ">80.000 đ</p>
+            <a class="dat-hang-nao" href="">ĐẶT HÀNG</a>
+        </div>
+        
+    </div>
+        <div class="shopping" >
+            <i class="fas fa-shopping-cart"><span class="stickyyy" style="font-family: 'Bungee', cursive;;">0 đ</span> </i>
+        </div>
+    </div>
+<br class="br">
+<br class="br">
+<br class="br">
+       
+    
+    
+    <footer>
+        <div class="logofoot">
+        <img class="logofooter" src="Image/Menu 1/LOGOJOLLIBEE.png" alt="">
+        </div>
+        <div class="thongtindiachi">
+        <p id="diachi">Địa chỉ: Lầu 5, tòa nhà SCIC, 16 Trương Định, Phường Võ Thị Sáu, Quận 3, Tp. Hồ Chí Minh, Việt Nam</p>
+        <p id="tongdai">Tổng đài: 1900-1533</p>
+        <p id="hopthu">Hộp thư góp ý:</p>
+        <p id="feedback">jbvnfeedback@jollibee.com.vn</p>
+        <p id="guiphanhoi">Hoặc gửi phản hồi tại <a href="">ĐÂY</a> </p>
+        </div>
+        <img id="sodienthoai" src="Image/Menu 1/Hotline.png" alt="">
+
+    <div class="chinhsach">
+        <p><a  href="">Chính sách và quy định chung</a></p>
+        <p class="quydinh"><a class="quydinh"href="">Chính sách bảo mật thông tin</a></p>
+        <p class="quydinh"><a class="quydinh"href="">Chính sách bảo mật hoạt động</a></p>
+        <p class="quydinh"><a class="quydinh"href="">Liên Hệ</a></p>
+        <div class="an800">
+        <p class="hayketnoi">HÃY KẾT NỐI VỚI CHÚNG TÔI</p>
+        <i class="iconfab fab fa-facebook-f"></i>
+        <i class="iconfab fab fa-google fa-google1"></i>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+#nav-menu1{
+    display: flex;
+    font-weight: 400;
+    background-color: #C81F34;
+    justify-content: space-between;
+    font-family: 'Bungee', cursive;
+    height:77px ;
+}
+.dangki{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+#ul-menu1{
+    display: flex;
+}
+.li-menu1{
+    margin:41px 4px 0 0;
+}
+.a-menu1{
+    font-family: 'Bungee', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px 5px;
+    margin:  2px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.a-menu1:hover{
+    background-color: #F4D2D6;
+    color: #C81F34;
+}
+
+
+.menu-xo-xuong{
+    display: none;
+    position: absolute;
+    background-color: #F4D2D6;
+   min-width: 160px;
+   z-index: 1;
+    left: 20%;
+    top: 77px;
+    width: 800px;
+    height: 90px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.a-xo-xuong{
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    display: block;
+    font-family: 'Bungee', cursive;
+
+}
+.dropbox:hover .menu-xo-xuong{
+    display: flex;
+
+}
+.li-xo-xuong{
+    text-align: center;
+    margin-top: 0px;
+}
+.hinh-trong-drop{
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+.hinh-trong-drop:hover{
+    width: 100%;
+    transition: 500ms;
+}
+#logo-menu{
+    width: 80px;
+    margin-left:50px ;
+}
+#hotline{
+    width: 150px;
+    height: 40px;
+    margin: 20px 20px 15px 10px;
+}
+.fa-user{  
+    padding: 5px 6px;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.fa-user:hover{
+    
+    color: #C81F34;
+    background-color: white;
+    border: 1px double white;
+    
+}
+.login{
+    position: absolute;
+    width: 260px;
+    top: 8px;
+    right: 16%; 
+    display: flex;
+}
+.dangnhapdangki{
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.subvn{
+    color: rgb(243, 223, 135);
+    margin: 7px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.subeng{
+    color: white;
+    margin: 7px;
+    margin-left: -5px;
+    font-family: 'Roboto', sans-serif;
+}
+.icon-menu-an{
+    display: none;
+}
+.touch{
+    position: absolute;
+    left:15px;
+    top: 28px;
+}
+.gach{
+    display: block;
+    width: 22px;
+    border-radius: 2px;
+    height: 4px;
+    display: none;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.fa-times{
+    color: white;
+    display: none;
+}
+.vietnamandenglish{
+    display: none;
+}
+@media screen and (max-width:1100px){
+   
+    #ul-menu1.active{
+        display: block;
+        background-color:#353535 ;
+    }
+    .scoll::-webkit-scrollbar {
+        width: 6px;
+        
+        background-color: #dd5e5e;
+    } 
+    .scoll::-webkit-scrollbar-thumb {
+        background-color: #e66767;
+        
+    }
+    .scoll::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(92, 67, 67, 0.3);
+        background-color: #F5F5F5;
+    }
+    #ul-menu1{
+        overflow:auto;
+        display: none;
+        background-color:#353535 ;
+        margin: 0;z-index: 50000;
+        transition: 1s;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 50%;
+    }
+    .scoll{
+        min-height: 150px;
+    }
+    .li-menu1{
+        text-align: center;
+        margin: 0;
+        font-size: 140%;
+        width: 100%;
+
+    }
+    .a-menu1{
+        display: block;
+        border-radius: 0;
+        padding: 20px 0;
+    }      
+     .a-menu1:hover{
+         background-color:#5a5959;
+         color: rgb(236, 88, 88);
+     }
+  
+    .hide{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 25px;
+    }
+    
+    .login{
+        display: none;
+    }
+    .gach{
+        display: block;
+    }
+    #logo-menu{
+        margin: 0 auto;
+        display: block;
+    }
+    .bao-logo-menu{
+        border: white solid 1px;
+        margin-bottom: 0;
+    }
+    
+    .fa-times.active{
+        display: block;
+    }
+    
+    .fa-times{
+        display: block;
+        position: absolute;
+        right: 3%;
+        top: 1%;
+    }
+    .trangchu{
+        margin-top: 15px;
+    }
+   
+    .icon-menu-an{
+        display: block;
+        justify-content: space-between;
+    }
+    .fa-twitter{
+        font-size: 160%;
+        padding: 10px 9px;
+        border-radius:30px ;
+        text-align: center;
+        background-color: white;
+        color: #353535;
+
+    }
+    .goo{
+ 
+        padding: 10px 8px;
+    }
+    .fab1{
+        background-color: white;
+        color: #353535;
+        font-size: 160%;
+        margin: 10px 10px;
+        padding: 10px 5%;
+        border-radius: 500px;
+    }
+    .fab1:hover{
+        opacity: 0.8;
+        background-color: rgb(156, 154, 154);
+        color: #353535;
+    }
+    .fa-facebook-f{
+        width: 35px;
+    }
+    
+    .vn{
+        margin-right: 5px;
+        font-size: 16px;
+        padding: 0;
+        color: rgb(253, 253, 253);
+    }
+    .eng{
+        margin-left: 0;
+        padding: 0;
+        font-size: 16px;
+        color: rgb(255, 251, 22);
+
+    }
+    .eng:hover{
+        color: rgb(187, 184, 17);
+    }
+    .vn:hover{
+        color: rgb(192, 192, 192);
+    }
+    .vietnamandenglish{
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .hinh-trong-drop{
+        display: none;
+    }
+    .dropbox:hover .menu-xo-xuong{
+        display:inline;
+    }
+
+
+    
+    .menu-xo-xuong{
+        position: relative;
+   z-index: 100;
+   top: 0;
+    width: 100%; 
+    left: 0;
+    border-bottom-left-radius:00px ;
+    border-bottom-right-radius:00px ;
+    }
+   
+    .a-xo-xuong{
+        color: #F4D069;
+        font-size: 11px;
+        display: block;
+        padding: 15px 0;
+    background-color:#000000;
+    }
+    .a-xo-xuong:hover{
+        color: #e9b119;
+        background-color: rgb(88, 88, 88);
+    }
+}
+@media screen and (max-width:700px){
+    .fab1{
+        padding: 10px;
+        width: 50%;
+    }
+}
+@media screen and (max-width:300px){
+    #hotline{display: none;}
+    #ul-menu1{
+        width: 70%;
+    }
+
+}

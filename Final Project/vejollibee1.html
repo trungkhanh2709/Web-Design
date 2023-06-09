@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="menu chính.css">
+    <link rel="stylesheet" href="vejollibee.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Về Jollibee - Jollibee</title>
+</head>
+<body class="body">
+    <nav id="nav-menu1">
+        <a href=""></a> <img id="logo-menu" src="Image/Menu 1/LOGOJOLLIBEE.png" alt=""> 
+            <ul id="ul-menu1" class="scoll">
+                <span class="click"> 
+                <i class="fas fa-times"></i>
+                </span>
+                <span class="vietnamandenglish">
+                 <a class=" vn" href="">VN</a> <a class=" eng" href="">/ENG</a> 
+                </span>
+                <li class="li-menu1 trangchu"> <a class="a-menu1" href="Trangchu.html">TRANG CHỦ</a> </li>
+                <li class="li-menu1"> <a  style="  background-color: #F4D2D6;color: #C81F34;"   class="a-menu1" href="vejollibee1.html">VỀ JOLLIBEE</a> </li>
+                <li class="li-menu1 dropbox"> <a class="a-menu1" href="combo.html">THỰC ĐƠN</a>
+                
+                <ul class="menu-xo-xuong">
+                    <li class="li-xo-xuong"><a class="a-xo-xuong" href="combo.html"> <img class="hinh-trong-drop" src="Image/Menu 1/combo.png" alt=""  >COMBO</a> </li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="gagionvuive.html"><img class="hinh-trong-drop" src="Image/Menu 1/ga-gion-vui-ve.png" alt=""  >GÀ GIÒN VUI VẺ</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Gà Sốt Cay.html"><img class="hinh-trong-drop" src="Image/Menu 1/ga-sot-cay.png" alt=""  > GÀ SỐT CAY</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Mỳ Ý Sốt Bò Hầm.html"><img class="hinh-trong-drop" src="Image/Menu 1/mi-y.png" alt=""  >MỲ Ý SỐT BÒ HẦM</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="BurgerVaCơm.html"><img class="hinh-trong-drop" src="Image/Menu 1/burger-sandwich.png" alt=""  >BURGER & CƠM</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Phần Ăn Phụ.html"><img class="hinh-trong-drop" src="Image/Menu 1/phan-an-phu.png" alt=""  >PHẦN ĂN PHỤ</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Món Tráng Miệng.html"><img class="hinh-trong-drop" src="Image/Menu 1/mon-trang-mieng.png" alt=""  >MÓN TRÁNG MIỆNG</a></li>
+                </ul>
+            </li>
+                <li class="li-menu1"> <a class="a-menu1" href="khuyenmai.html">KHUYẾN MÃI</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="dichvu.html">DỊCH VỤ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="tintuc.html">TIN TỨC</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="cửa hàng.html">CỬA HÀNG</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="lienhe.html">LIÊN HỆ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="tuyển dụng.html">TUYỂN DỤNG</a> </li>
+                <li  class="li-menu1 icon-menu-an"><i class=" fab1 fab fa-facebook-f"></i><i class="fab1 fab fa-twitter"></i><i class="fab1 fab fa-google"></i></li>
+            </ul>
+            
+            <img id="hotline" src="Image/Menu 1/Hotline.png" alt="">
+            <div class="touch">
+                <span class="gach"></span>
+                <span class="gach"></span>
+                <span class="gach"></span>
+            </div>
+        </nav>
+        <div class="login"><i class="fas fa-user"></i><a class="dangnhapdangki" href="">Đăng ký / Đăng nhập</a></i>
+             <a class="subvn" href="">VN</a> <a class="subeng" href="">| ENG</a> 
+        </div>
+        <script>
+            const touch = document.querySelector(".touch");
+            const menu=document.querySelector("#ul-menu1"); 
+            touch.addEventListener("click", mobiMenu);
+            function mobiMenu(){
+                touch.classList.toggle("active");
+                menu.classList.toggle("active")
+            }
+            const click = document.querySelector(".click");
+            const ham=document.querySelector("#ul-menu1"); 
+            click.addEventListener("click", mobiMenu);
+            function mobiMenu(){
+                click.classList.toggle("active");
+                ham.classList.toggle("active")
+            }
+        </script>
+<span id="join">
+    <div class="can-giua">
+        
+            <img class="ong" src="image/vẹjollibee/bee.png" alt="">          
+
+            <div class="story">
+            <p class="lichsu">LỊCH SỬ HÌNH THÀNH </p> 
+            <p class="nua"> Jollibee là một câu chuyện thành công phi thường bởi chỉ từ 2 tiệm kem nhỏ hình thành vào năm 1975, chuyên bán các món ăn nóng và bánh mì kẹp đã trở thành công ty với 7 cửa hàng vào năm 1978, chuyên về bơ gơ. Sau đó trở thành một tập đoàn tạo nên cuộc cách mạng thức ăn nhanh tại Philippines. 
+            Jollibee hiện có hơn 1000 cửa hàng tại Philippines và hơn 300 cửa hàng tại các quốc gia trên khắp thế giới như Mỹ, Hong Kong, các tiểu vương quốc Ả Rập Thống Nhất, Qatar, Brunei, Trung Quốc, và Việt Nam.
+            </p> 
+            </div>
+        
+    </div>
+<span id="join">
+    <div class="nhieuanh">
+        <span class="nhieuanh1">
+        <img class="anh1 anh-ngang1" src="image/vẹjollibee/block-1.jpg" alt="">
+        <img class="anh1  anh-ngang2" src="image/vẹjollibee/block-2.jpg" alt="">
+        </span>
+        <span class="nhieuanh2">
+        <img class="anh1  anh-ngang3" src="Image/vẹjollibee/block-3.jpg" alt="">
+        <img class="anh1  anh-ngang4" src="Image/vẹjollibee/block-4.png" alt="">
+        </span>
+     </div>
+
+     <div class="tong">
+         <span class="phan3">
+             <h1 class="giua">JOLLIBEE VIỆT NAM</h1>
+             <div class="cuahang">
+                 <p class="store">   Cửa hàng Jollibee đầu tiên được mở tại Việt Nam vào năm 2005. Kể từ đó, Jollibee đã nỗ lực hết mình để mang đến các gia đình Việt những phần ăn ngon miệng với mức giá hợp lý. </p> 
+            <p class="xuong-dong">
+                Đến hôm nay, Jollibee đã có hơn <b>100</b> cửa hàng tại Việt Nam trải rộng trên toàn quốc. Jollibee không đơn thuần phục vụ những món thức ăn nhanh chất lượng theo quy trình được kiểm duyệt nghiêm khắc, mà còn mang đến cho mọi người không gian ấm áp, sang trọng để ai cũng được thưởng thức ẩm thực vui vẻ, thoải mái nhất bên gia đình và bè bạn. Từ những nền tảng này, Jollibee Việt Nam luôn ấp ủ trở thành thương hiệu thức ăn nhanh mang đến những món ăn ngon với hương vị phù hợp cho người Việt bên cạnh mục tiêu tạo ra một địa điểm ẩm thực góp phần gắn kết gia đình Việt qua bữa ăn ngon. Và đây cũng chính là tiền đề để Jollibee củng cố và phát triển bền vững trong dài hạn.
+            </p>
+            </div>
+         </span>    
+     </div>
+
+    
+     <div class="khaitruong">
+         <p class="giatri">CÁC GIÁ TRỊ</p>
+
+         <div class="hang">
+             <div class="hang1">
+                 <i class="fas icon-hang-1 icon-hang-13 fa-user"></i>
+                 <p class="chu-thich">Khách hàng là trọng tâm</p>
+             </div>
+             
+             <div class="hang1">
+                 <i class="fas icon-hang-1 fa-chart-line"></i>
+                 <p  class="chu-thich">Mang đến các giá trị vượt trội</p>
+             </div>
+             
+             <div class="hang1">
+                 <i class="far icon-hang-1 fa-handshake"></i>
+                 <p class="chu-thich">Luôn đề cao sự tôn trọng đối với các cá nhân</p>
+             </div>              
+         </div>
+
+         <div class="hanghang">
+             <div class="hang2">
+                 <i class="fas icon-hang-1 fa-users"></i>
+                 <p class="chu-thich">Tinh thần tập thể</p>
+             </div>
+             
+             <div class="hang2">
+                 <i class="fas icon-hang-1 fa-people-carry"></i>
+                 <p class="chu-thich chu-thich-hang-2">Mang tinh thần của gia đình và luôn luôn vui vẻ</p>
+             </div>
+             
+             <div class="hang2">
+                 <i class="fas icon-hang-1 fa-user-graduate"></i>
+                 <p class="chu-thich">Khiêm tốn lắng nghe và học hỏi</p>
+             </div>              
+         </div>
+
+         <div class="hanghanghang">
+             <div class="hang3">
+                 <i class="far icon-hang-1 fa-thumbs-up"></i>
+                 <p class="chu-thich chu-thich-cach-duoi">Trung thực và liêm chính</p>
+             </div>
+             
+             <div class="hang3">
+                 <i class="fas icon-hang-1 fa-hand-holding-usd"></i>
+                 <p class="chu-thich chu-thich-cach-duoi">Tiết kiệm</p>
+             </div>
+             <div class="hang3">
+                
+            </div>  
+
+         </div>
+     </div>
+</div>
+     <div class="baoquat">
+     <div class="final">
+         
+             
+              <img class="hinhto" src="image/vẹjollibee/about-img.jpg" alt="">
+             <span class="toanlachu">
+           
+                 <p class="sumenh">SỨ MỆNH</p>
+                 <p class="tat-ca">
+                     Tất cả những gì mà chúng tôi phải làm là mang đến những hương vị tuyệt vời trong từng món ăn, mang lại niềm vui ẩm thực cho tất cả mọi người.   
+                 </p> 
+                 
+                 <p class="tieuchuan1">
+                     CÁC TIÊU CHUẨN FSC
+                </p> 
+                 <p class="can-lai">
+                 Sự phát triển vượt bậc của Jollibee™ có được là nhờ vào việc tuân thủ một cách nghiêm ngặt và tận tâm vào các tiêu chuẩn cao được ký kiệu là “F.S.C”: Thực phẩm (Food) được phục vụ cho công chúng phải đáp ứng được các tiêu chuẩn vượt trội của công ty nếu không chúng tôi sẽ không đưa ra thị trường. Dịch vụ (Service) phải nhanh chóng và lịch sự. Sạch sẽ (Cleanness), từ nhà bếp đến các dụng cụ phải luôn luôn được giữ sạch. Jollibee thực sự tự hào về những nhân viên của mình, những người luôn tận tụy với công việc của họ.
+                 </p>
+                 <p  class="can-lai" style="margin-top: 12px;"> 
+                 Jollibee luôn công nhận họ bằng việc mang đến những chế độ ưu đãi tốt nhất trong ngành công nghiệp thức ăn nhanh và hỗ trợ họ trong những chương trình đào tạo toàn diện và hiện đại. Những nhà quản lý được phổ biến thường xuyên trên những hệ thống vận hành mới nhất ở cửa hàng về kỹ năng quản lý con người theo định hướng riêng so với những người khác. Những nhóm dịch vụ được đào tạo ở những cửa hàng khác nhau và dịch vụ thực phẩm luôn được đổi mới. Jollibee cũng cung cấp những cơ hội nghề nghiệp cho những nhóm thành viên có chất lượng và có trình độ để họ có thể thăng tiến lên cấp quản lý trong ngành dịch vụ thực phẩm.  
+                 </p>
+                 <p  class="can-lai can-lai1" style="margin-top: 12px;">
+                    Các hoạt động tại cửa hàng được hỗ trợ đắc lực bởi các chuyên gia có kinh nghiệm trong lĩnh vực Marketing, Kỹ thuật và Quản lý Công nghệ thông tin.
+                 </p>
+            </span>
+    </div>   
+     </div>
+      <div class="back-len">
+        <a href="#join"><i class="fas fa-chevron-up"></i></a>
+    </div>   
+</span>
+     <footer>
+         <div class="logofoot">
+         <img class="logofooter" src="Image/Menu 1/LOGOJOLLIBEE.png" alt="">
+         </div>
+         <div class="thongtindiachi">
+         <p id="diachi">Địa chỉ: Lầu 5, tòa nhà SCIC, 16 Trương Định, Phường Võ Thị Sáu, Quận 3, Tp. Hồ Chí Minh, Việt Nam</p>
+         <p id="tongdai">Tổng đài: 1900-1533</p>
+         <p id="hopthu">Hộp thư góp ý:</p>
+         <p id="feedback">jbvnfeedback@jollibee.com.vn</p>
+         <p id="guiphanhoi">Hoặc gửi phản hồi tại <a href="">ĐÂY</a> </p>
+         </div>
+         <img id="sodienthoai" src="Image/Menu 1/Hotline.png" alt="">
+ 
+     <div class="chinhsach">
+         <p><a  href="">Chính sách và quy định chung</a></p>
+         <p class="quydinh"><a class="quydinh"href="">Chính sách bảo mật thông tin</a></p>
+         <p class="quydinh"><a class="quydinh"href="">Chính sách bảo mật hoạt động</a></p>
+         <p class="quydinh"><a class="quydinh"href="">Liên Hệ</a></p>
+         <div class="an800">
+         <p class="hayketnoi">HÃY KẾT NỐI VỚI CHÚNG TÔI</p>
+         <i class="iconfab fab fafooter fa-facebook-f"></i>
+         <i class="iconfab fab goofooter fa-google fa-google1"></i>
+         </div>
+     </footer>
+</body>
+</html>

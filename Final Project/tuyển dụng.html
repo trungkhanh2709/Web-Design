@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyến Dụng - Jollibee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menu chính.css">
+    <link rel="stylesheet" href="tuyển dụng.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body class="body">
+    <nav id="nav-menu1">
+        <a href=""></a> <img id="logo-menu" src="Image/Menu 1/LOGOJOLLIBEE.png" alt=""> 
+            <ul id="ul-menu1" class="scoll">
+                <span class="click"> 
+                <i class="fas fa-times"></i>
+                </span>
+                <span class="vietnamandenglish">
+                 <a class=" vn" href="">VN</a> <a class=" eng" href="">/ENG</a> 
+                </span>
+                <li class="li-menu1 trangchu"> <a class="a-menu1" href="Trangchu.html">TRANG CHỦ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="vejollibee1.html">VỀ JOLLIBEE</a> </li>
+                <li class="li-menu1 dropbox"> <a class="a-menu1" href="combo.html">THỰC ĐƠN</a>
+                
+                <ul class="menu-xo-xuong">
+                    <li class="li-xo-xuong"><a class="a-xo-xuong" href="combo.html"> <img class="hinh-trong-drop" src="Image/Menu 1/combo.png" alt=""  >COMBO</a> </li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="gagionvuive.html"><img class="hinh-trong-drop" src="Image/Menu 1/ga-gion-vui-ve.png" alt=""  >GÀ GIÒN VUI VẺ</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Gà Sốt Cay.html"><img class="hinh-trong-drop" src="Image/Menu 1/ga-sot-cay.png" alt=""  > GÀ SỐT CAY</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Mỳ Ý Sốt Bò Hầm.html"><img class="hinh-trong-drop" src="Image/Menu 1/mi-y.png" alt=""  >MỲ Ý SỐT BÒ HẦM</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="BurgerVaCơm.html"><img class="hinh-trong-drop" src="Image/Menu 1/burger-sandwich.png" alt=""  >BURGER & CƠM</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Phần Ăn Phụ.html"><img class="hinh-trong-drop" src="Image/Menu 1/phan-an-phu.png" alt=""  >PHẦN ĂN PHỤ</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Món Tráng Miệng.html"><img class="hinh-trong-drop" src="Image/Menu 1/mon-trang-mieng.png" alt=""  >MÓN TRÁNG MIỆNG</a></li>
+                </ul>
+            </li>
+                <li class="li-menu1"> <a class="a-menu1" href="khuyenmai.html">KHUYẾN MÃI</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="dichvu.html">DỊCH VỤ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="tintuc.html">TIN TỨC</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="cửa hàng.html">CỬA HÀNG</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="lienhe.html">LIÊN HỆ</a> </li>
+                <li class="li-menu1"> <a  style="  background-color: #F4D2D6;color: #C81F34;"class="a-menu1" href="tuyển dụng.html">TUYỂN DỤNG</a> </li>
+                <li  class="li-menu1 icon-menu-an"><i class=" fab1 fab fa-facebook-f"></i><i class="fab1 fab fa-twitter"></i><i class="fab1 fab fa-google"></i></li>
+            </ul>
+            
+            <img id="hotline" src="Image/Menu 1/Hotline.png" alt="">
+            <div class="touch">
+                <span class="gach"></span>
+                <span class="gach"></span>
+                <span class="gach"></span>
+            </div>
+    </nav>
+        <div class="login"><i class="fas fa-user"></i><a class="dangnhapdangki" href="">Đăng ký / Đăng nhập</a></i>
+             <a class="subvn" href="">VN</a> <a class="subeng" href="">| ENG</a> 
+        </div>
+        <script>
+            const touch = document.querySelector(".touch");
+            const menu=document.querySelector("#ul-menu1"); 
+            touch.addEventListener("click", mobiMenu);
+            function mobiMenu(){
+                touch.classList.toggle("active");
+                menu.classList.toggle("active")
+            }
+            const click = document.querySelector(".click");
+            const ham=document.querySelector("#ul-menu1"); 
+            click.addEventListener("click", mobiMenu);
+            function mobiMenu(){
+                click.classList.toggle("active");
+                ham.classList.toggle("active")
+            }
+        </script>
+    <div class="back-groud">
+        <div class="chu-trong-hinh">
+    <p class="beeour">BEE OUR FAMILY</p>
+        <p class="chaomung">Chào mừng Bạn đến với trang tuyển dụng của Jollibee Việt Nam</p>
+        <a class="gia-nhap-jollibee" href="">Gia Nhập Jollibee</a>
+    </div>
+    </div>
+    
+    <span id="join"></span>
+    <div class="chu-va-4-hinh" >
+        <p class="gia-nhap">GIA NHẬP BEE - CƯỜI HIHI</p>
+        <hr>
+        <p class="tai-jollibee">Tại Jollibee, dù ở Khối cửa hàng, Khối văn phòng hay Nhà máy sản xuất, cộng đồng ong luôn thân thiện, cởi mở và chuyên nghiệp.
+ Giá trị được tạo ra và thành công của Jollibee chính là nhờ sự đam mê của bạn đối với công việc.</p>
+        <div class="chu-hon-100">         
+           <div class="hon100">
+            <p class="chu-do">HƠN 1000</p>
+            <p>CỬA HÀNG TRÊN KHẮP THẾ GIỚI</p>
+            </div>
+           <div class="hon100">
+            <p class="chu-do"> 140 CỬA HÀNG</p> 
+            <p>TẠI VIỆT NAM</p>
+            </div>
+        </div>
+        <img class="bon-hinh" src="Image/TuyểnDụng/work (1).jpg" alt="" srcset="">
+    </div>
+    <div class="phuc-loi">
+        <p class="chu-phuc-loi">Phúc lợi khi gia nhập Jollibee</p>
+            <hr class="hr">
+    <div class="flex-het">
+        <div class="khi-su-dung">
+        <i class="iconnnn fas fa-concierge-bell"></i>
+        <p class="chu-trong-o-do">Ưu Đãi</p>
+        <p class="uu-dai-khi-dung">Ưu đãi khi sử dụng sản phẩm tại các cửa hàng Jollibee</p>
+        </div>
+
+        <div class="khi-su-dung">
+            <i class="iconnnn fas fa-award"></i>
+            <p class="chu-trong-o-do">Đào Tạo</p>
+            <p class="uu-dai-khi-dung">Cơ hội học hỏi, hoàn thiện và phát triển bản thân khi được tham gia các khóa huấn luyện nội bộ và bên ngoài</p>
+            </div>
+
+        <div class="khi-su-dung">
+        <i class="iconnnn fas fa-table-tennis"></i>
+        <p class="chu-trong-o-do">Hoạt Động Gắn Kết</p>
+        <p class="uu-dai-khi-dung">Jollibee hướng đến việc xây dựng môi trường làm việc năng động, công bằng, gắn kết với tất cả thành viên</p>
+        </div>
+
+        
+        <div class="khi-su-dung">
+            <i class="iconnnn fas fa-heartbeat"></i>
+            <p class="chu-trong-o-do">Chăm Sóc Sức Khỏe Hằng Năm</p>
+            <p class="uu-dai-khi-dung cach-cuoi">Được cung cấp các dịch vụ khám định kỳ hằng năm</p>
+
+            </div>
+    </div>
+    </div>
+    <div>
+    <div class="back-trang">
+        <p class="co-hoi-nghe-nghiep">Cơ hội nghề nghiệp</p>
+        <hr>
+        <div class="tuyen-nhan-vien">
+                <div class="danh-sach">
+                    <div class="danh-sach-2">
+                    <p class="dia-diem">Phòng Ban</p>
+                    <form action="">
+                        
+                    <span><input placeholder="Lọc phòng ban" type="search" ></span> 
+                    <br>
+                    <div class="cuon-danh-sach1 cuon-danh-sach5">
+                    <input type="checkbox"  name="Tất cả" value="Tất cả">
+                    <label for="Tất cả"> Tất cả</label><br>
+                    <input type="checkbox"  name="Khối cửa hàng - Operatons" value="Khối cửa hàng - Operatons">
+                    <label for="Khối cửa hàng - Operatons"> Khối cửa hàng - Operatons</label><br>
+                    <input type="checkbox"  name="Khối văn phòng - MO" value="Khối văn phòng - MO">
+                    <label for="Khối văn phòng - MO"> Khối văn phòng - MO</label><br>
+                    <input type="checkbox"  name="Khối nhà xưởng - Comml" value="Khối nhà xưởng - Comml">
+                    <label for="Khối nhà xưởng - Comml"> Khối nhà xưởng - Comml</label><br>
+                        </div>
+                    </form>
+                    </div>
+                    
+                    <div class="danh-sach-2 ">
+                    <p class="dia-diem">Địa điểm</p>
+                    <form action="" >
+                    <span><input placeholder="Lọc địa điểm ... " type="search" ></span> 
+                <br>
+                    <div class="cuon-danh-sach cuon-danh-sach5">
+                        <input type="checkbox"  name="Tất cả" value="Tất cả">
+                        <label for="Tất cả"> Tất cả</label> <br>
+                        <input type="checkbox"  name="Khu vực miền Bắc" value="Khu vực miền Bắc">
+                        <label for="Khu vực miền Bắc"> Khu vực miền Bắc</label><br>
+                        <input type="checkbox"  name="Khu vực Bắc Trung Bộ" value="Khu vực Bắc Trung Bộ">
+                        <label for="Khu vực Bắc Trung Bộ"> Khu vực Bắc Trung Bộ</label><br>
+                        <input type="checkbox"  name="Khu vực miền Trung" value="Khu vực miền Trung">
+                        <label for="Khu vực miền Trung"> Khu vực miền Trung</label><br>
+                        <input type="checkbox"  name="Khu vực miền Mekong" value="Khu vực miền Mekong">
+                        <label for="Khu vực miền Mekong"> Khu vực miền Mekong</label><br>
+                        <input type="checkbox"  name="Khu vực miền Đông Nam Bộ" value="Khu vực miền Đông Nam Bộ">
+                        <label for="Khu vực miền Đông Nam Bộ"> Khu vực miền Đông Nam Bộ</label><br>
+                        <input type="checkbox"  name="Khu vực miền Nam" value="Khu vực miền Nam">
+                        <label for="Khu vực miền Nam"> Khu vực miền Nam</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Phát triển mặt bằng" value="[MO] Phòng Phát triển mặt bằng">
+                        <label for="[MO] Phòng Phát triển mặt bằng"> [MO] Phòng Phát triển mặt bằng</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Kế toán" value="[MO] Phòng Kế toán">
+                        <label for="[MO] Phòng Kế toán"> [MO] Phòng Kế toán</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Công nghệ Thông tin" value="[MO] Phòng Công nghệ Thông tin">
+                        <label for="[MO] Phòng Công nghệ Thông tin"> [MO] Phòng Công nghệ Thông tin</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Quản lý Chất lượng" value="[MO] Phòng Quản lý Chất lượng">
+                        <label for="[MO] Phòng Quản lý Chất lượng"> [MO] Phòng Quản lý Chất lượng</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Trade Marketing" value="[MO] Phòng Trade Marketing">
+                        <label for="[MO] Phòng Trade Marketing"> [MO] Phòng Trade Marketing</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Tiền lương và Phúc lợi" value="[MO] Phòng Tiền lương và Phúc lợi">
+                        <label for="[MO] Phòng Tiền lương và Phúc lợi"> [MO] Phòng Tiền lương và Phúc lợi</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Hệ thống Cửa hàng" value="[MO] Phòng Hệ thống Cửa hàng">
+                        <label for="[MO] Phòng Hệ thống Cửa hàng"> [MO] Phòng Hệ thống Cửa hàng</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Kỹ thuật" value="[MO] Phòng Kỹ thuật">
+                        <label for="[MO] Phòng Kỹ thuật"> [MO] Phòng Kỹ thuật</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Thu mua" value="[MO] Phòng Thu mua">
+                        <label for="[MO] Phòng Thu mua"> [MO] Phòng Thu mua</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Phát triển Sản phẩm" value="[MO] Phòng Phát triển Sản phẩm">
+                        <label for="[MO] Phòng Phát triển Sản phẩm"> [MO] Phòng Phát triển Sản phẩm</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Đào tạo & Phát triển" value="[MO] Phòng Đào tạo & Phát triển">
+                        <label for="[MO] Phòng Đào tạo & Phát triển"> [MO] Phòng Đào tạo & Phát triển</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Nhân Sự Chiến Lược" value="[MO] Phòng Nhân Sự Chiến Lược">
+                        <label for="[MO] Phòng Nhân Sự Chiến Lược"> [MO] Phòng Nhân Sự Chiến Lược</label><br>
+                        <input type="checkbox"  name="[MO] Phòng Tài Chính" value="[MO] Phòng Tài Chính">
+                        <label for="[MO] Phòng Tài Chính"> [MO] Phòng Tài Chính</label><br>
+                    </div> 
+                    </form>
+                    </div>
+            
+                    <div class="danh-sach-2">
+                        <p class="dia-diem">Loại công việc</p>
+                        <form action="" >
+                        <div class="cuon-danh-sach1 cuon-danh-sach5">
+                        <input type="checkbox"  name="Tất cả" value="Tất cả">
+                        <label for="Tất cả"> Tất cả</label><br>
+                        <input type="checkbox"  name="Full-time" value="Full-time">
+                        <label for="Full-time"> Full-time</label><br>
+                        <input type="checkbox"  name="Part-time" value="Part-time">
+                        <label for="Part-time"> Part-time</label><br>
+                        <input type="checkbox"  name="Intern" value="Intern">
+                        <label for="Intern"> Intern</label><br>
+                        <input type="checkbox"  name="Contract" value="Contract">
+                        <label for="Contract"> Contract</label><br>
+                        <input type="checkbox"  name="Freelancer" value="Freelancer">
+                        <label for="Freelancer"> Freelancer</label><br>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="danh-sach-2 colorgray">
+                        <p class="dia-diem"> Chia sẻ</p>
+                            <div class="can-giua">
+                        <i class="chiaseicon face-1 fab fa-facebook-f"></i>
+                        <i class="chiaseicon goo-1 fab fa-google-plus-g"></i>
+                        <i class="chiaseicon li-1 fab fa-linkedin-in"></i>
+                            </div>
+                    </div>
+                </div>
+               <div class="vi-tri-ung-tuyen">
+                   
+                    <div class="border-cover border-cover1">
+                        
+                        <div class="chu-doc">
+                            <a href="" class="doi-mau-chu">Senior Purchasing Manager</a>
+                            
+                            <p class="thong-tin-ung-tuyen">
+                            <span class="ngang">
+                                <span class="icon-time">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                <span class="thoi-gian-cu-the">
+                                    15/01/2022
+                                </span>
+                                <span class="dot">
+                                    <i class="fas fa-circle"></i>
+                                </span>
+                                <span class="full-time">
+                                    Toàn thời gian
+                                </span>
+                            </span>
+                            <span class="nam"> 
+                                    <i class="fas fa-map-marker-alt"> <a href="" class="vi-tri-lam">[COM] Phòng Thu mua</a></i>
+                            </span>
+                            </p>
+                        </div>
+                        <a class="ung-tuyen" href="">Ứng tuyển </a>
+                    </div>
+
+
+                    <div class="border-cover border-cover2">
+                        
+                        <div class="chu-doc">
+                            <a href="" class="doi-mau-chu"> Chuyên Viên Tiền Lương Và Phúc Lợi</a>
+                            <p class="thong-tin-ung-tuyen">
+                            <span class="ngang">
+                                <span class="icon-time">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                <span class="thoi-gian-cu-the">
+                                    14/01/2022 
+                                </span>
+                                <span class="dot">
+                                    <i class="fas fa-circle"></i>
+                                </span>
+                                <span class="full-time">
+                                    Toàn thời gian
+                                </span>
+                            </span>
+                            <span class="nam"> 
+                                    <i class="fas fa-map-marker-alt"> <a href="" class="vi-tri-lam">[COM] Phòng Tiền Lương và Phúc Lợi</a></i>
+                            </span>
+                            </p>
+                        </div>
+                        <a class="ung-tuyen" href="">Ứng tuyển </a>
+                    </div>
+
+                    <div class="border-cover border-cover2">
+                        
+                        <div class="chu-doc">
+                            <a href="" class="doi-mau-chu">IT System Administrator (Network)</a>
+                            <p class="thong-tin-ung-tuyen">
+                            <span class="ngang">
+                                <span class="icon-time">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                <span class="thoi-gian-cu-the">
+                                    12/01/2022
+                                </span>
+                                <span class="dot">
+                                    <i class="fas fa-circle"></i>
+                                </span>
+                                <span class="full-time">
+                                    Toàn thời gian
+                                </span>
+                            </span>
+                            <span class="nam"> 
+                                    <i class="fas fa-map-marker-alt"> <a href="" class="vi-tri-lam">[MO] Phòng Công nghệ Thông tin</a></i>
+                            </span>
+                            </p>
+                        </div>
+                        <a class="ung-tuyen" href="">Ứng tuyển </a>
+                    </div>
+                    
+                    <div class="border-cover border-cover2">
+                        
+                        <div class="chu-doc">
+                            <a href="" class="doi-mau-chu doi-mau-chu-hn">Chuyên Viên Nhân Sự Chiến Lược (HRBP) - Hà Nội</a>
+                            <p class="thong-tin-ung-tuyen">
+                            <span class="ngang">
+                                <span class="icon-time">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                <span class="thoi-gian-cu-the">
+                                    05/01/2022
+                                </span>
+                                <span class="dot">
+                                    <i class="fas fa-circle"></i>
+                                </span>
+                                <span class="full-time">
+                                    Toàn thời gian
+                                </span>
+                            </span>
+                            <span class="nam"> 
+                                    <i class="fas fa-map-marker-alt"> <a href="" class="vi-tri-lam">[MO] Phòng Nhân Sự Chiến Lược</a></i>
+                            </span>
+                            </p>
+                        </div>
+                        <a class="ung-tuyen ung-tuyen-hn" href="">Ứng tuyển </a>
+                    </div> 
+                    
+                    <div class="border-cover border-cover2">
+                        
+                    <div class="chu-doc">
+                            <a href="" class="doi-mau-chu"> Nhân Viên Kế Toán Nội Bộ</a>
+                            <p class="thong-tin-ung-tuyen">
+                            <span class="ngang">
+                                <span class="icon-time">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                <span class="thoi-gian-cu-the">
+                                    05/01/2022
+                                </span>
+                                <span class="dot">
+                                    <i class="fas fa-circle"></i>
+                                </span>
+                                <span class="full-time">
+                                    Toàn thời gian
+                                </span>
+                            </span>
+                            <span class="nam"> 
+                                    <i class="fas fa-map-marker-alt"> <a href="" class="vi-tri-lam">[MO] Phòng Kế Toán</a></i>
+                            </span>
+                            </p>
+                    </div>
+                        <a class="ung-tuyen" href="">Ứng tuyển </a>
+                    </div> 
+
+                    <div class="border-cover border-cover2">
+                        
+                        <div class="chu-doc">
+                            <a href="" class="doi-mau-chu"> Chuyên Viên Kế Toán Tổng Hợp</a>
+                            <p class="thong-tin-ung-tuyen">
+                            <span class="ngang">
+                                <span class="icon-time">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                <span class="thoi-gian-cu-the">
+                                    20/01/2022
+                                </span>
+                                <span class="dot">
+                                    <i class="fas fa-circle"></i>
+                                </span>
+                                <span class="full-time">
+                                    Toàn thời gian
+                                </span>
+                            </span>
+                            <span class="nam"> 
+                                    <i class="fas fa-map-marker-alt"> <a href="" class="vi-tri-lam">[MO] Phòng Kế Toán</a></i>
+                            </span>
+                            </p>
+                        </div>
+                        <a class="ung-tuyen" href="">Ứng tuyển </a>
+                    </div> 
+                    
+                    <div class="border-cover border-cover2">
+                        
+                        <div class="chu-doc">
+                            <a href="" class="doi-mau-chu">Chuyên Viên Tìm Kiếm Mặt Bằng</a>
+                            <p class="thong-tin-ung-tuyen">
+                            <span class="ngang">
+                                <span class="icon-time">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                <span class="thoi-gian-cu-the">
+                                    31/12/2021
+                                </span>
+                                <span class="dot">
+                                    <i class="fas fa-circle"></i>
+                                </span>
+                                <span class="full-time">
+                                    Toàn thời gian
+                                </span>
+                            </span>
+                            <span class="nam"> 
+                                    <i class="fas fa-map-marker-alt"> <a href="" class="vi-tri-lam">[MO] Phòng Phát triển mặt bằng</a></i>
+                            </span>
+                            </p>
+                        </div>
+                        <a class="ung-tuyen" href="">Ứng tuyển </a>
+                    </div> 
+                    
+                    <div class="border-cover border-cover2">
+                        
+                        <div class="chu-doc">
+                            <a href="" class="doi-mau-chu">Financial Analyst Officer</a>
+                            <p class="thong-tin-ung-tuyen">
+                            <span class="ngang">
+                                <span class="icon-time">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                <span class="thoi-gian-cu-the">
+                                    31/12/2021
+                                </span>
+                                <span class="dot">
+                                    <i class="fas fa-circle"></i>
+                                </span>
+                                <span class="full-time">
+                                    Toàn thời gian
+                                </span>
+                            </span>
+                            <span class="nam"> 
+                                    <i class="fas fa-map-marker-alt"> <a href="" class="vi-tri-lam">[MO] Phòng Tài Chính</a></i>
+                            </span>
+                            </p>
+                        </div>
+                        <a class="ung-tuyen" href="">Ứng tuyển </a>
+                    </div> 
+                    
+                    <div class="border-cover border-cover2">
+                        
+                    <div class="chu-doc">
+                        <a href="" class="doi-mau-chu">HRBP Officer</a>
+                        <p class="thong-tin-ung-tuyen">
+                        <span class="ngang">
+                            <span class="icon-time">
+                                <i class="far fa-clock"></i>
+                            </span>
+                            <span class="thoi-gian-cu-the">
+                                16/01/2021
+                            </span>
+                            <span class="dot">
+                                <i class="fas fa-circle"></i>
+                            </span>
+                            <span class="full-time">
+                                Toàn thời gian
+                            </span>
+                        </span>
+                        <span class="nam"> 
+                                <i class="fas fa-map-marker-alt"> <a href="" class="vi-tri-lam">[MO] Phòng Nhân Sự Chiến Lược</a></i>
+                        </span>
+                        </p>
+                    </div>
+                    <a class="ung-tuyen" href="">Ứng tuyển </a>
+                </div> 
+                
+                   
+               </div>
+        </div></div>
+<div class="back-len">
+    <a href="#join"><i class="fas fa-chevron-up"></i></a>
+</div>
+    
+</div>
+<br><br>
+    <footer>
+        <div class="logofoot">
+        <img class="logofooter" src="Image/Menu 1/LOGOJOLLIBEE.png" alt="">
+        </div>
+        <div class="thongtindiachi">
+        <p id="diachi">Địa chỉ: Lầu 5, tòa nhà SCIC, 16 Trương Định, Phường Võ Thị Sáu, Quận 3, Tp. Hồ Chí Minh, Việt Nam</p>
+        <p id="tongdai">Tổng đài: 1900-1533</p>
+        <p id="hopthu">Hộp thư góp ý:</p>
+        <p id="feedback">jbvnfeedback@jollibee.com.vn</p>
+        <p id="guiphanhoi">Hoặc gửi phản hồi tại <a href="">ĐÂY</a> </p>
+        </div>
+        <img id="sodienthoai" src="Image/Menu 1/Hotline.png" alt="">
+
+    <div class="chinhsach">
+        <p><a  href="">Chính sách và quy định chung</a></p>
+        <p class="quydinh"><a class="quydinh"href="">Chính sách bảo mật thông tin</a></p>
+        <p class="quydinh"><a class="quydinh"href="">Chính sách bảo mật hoạt động</a></p>
+        <p class="quydinh"><a class="quydinh"href="">Liên Hệ</a></p>
+        <div class="an800">
+        <p class="hayketnoi">HÃY KẾT NỐI VỚI CHÚNG TÔI</p>
+        <i class="iconfab fab fa-facebook-f"></i>
+        <i class="iconfab fab fa-google fa-google1"></i>
+        </div>
+    </footer>
+</body>
+</html>

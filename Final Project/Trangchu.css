@@ -1,0 +1,390 @@
+*{
+     margin: 0;
+    padding: 0;
+}
+.body::-webkit-scrollbar {
+    width: 6px;
+    
+    background-color: #e97f7f;
+} 
+.body::-webkit-scrollbar-thumb {
+    background-color: #e71b1b;
+    height:6px;
+}
+.body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(92, 67, 67, 0.3);
+    background-color: #f7f7f7;
+}
+.Bungee{ 
+    font-family: 'Bungee', cursive;
+}
+.chuyenslide{
+        width: 100%;
+    align-items: center;
+    display: block;
+    background-color: blanchedalmond;
+    
+}
+#slide{ 
+    position: static;
+    width: 100%;
+}
+.dathang1{border: rgb(255, 255, 255) solid 1px;
+    position:relative;
+    top: -30%;
+    z-index: 500;
+}
+.dathang{ 
+    font-family: 'Bungee', cursive;
+    width: 20% ;
+    height: 10%;
+    background-color:#FAC437 ;
+    font-size: 130%;
+    box-shadow: 1px 1px 1px 1px rgb(97, 97, 97);
+    color: #42210B;
+    border-radius: 5px;
+    align-items: center;
+    
+    margin: 0 auto;
+    display: block;
+    margin-top: -20%;
+    text-align: center;
+    
+   
+    
+}
+.dathang:hover{
+    color: white;
+    background-color:#fcb606 ;
+    transition: 800ms;
+}
+.backgrounddo{ 
+ 
+    background-color: #E31C3D;
+    width: 25%;
+    margin-right: 15px;
+    height: 700px ;
+}
+.logophanmenu{
+    width:140px ;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 70px;
+   display: block;
+   justify-content: space-around;
+  
+}
+.homnayangi{
+    font-size: 35px;
+    width:80%;
+    line-height: 40px;
+    color: white;
+    font-family: 'Bungee', cursive;
+    margin: 0 auto;
+    text-align: center;
+}
+.thucdonjollibee{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+    width: 70% ;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 90%;
+    text-align: center;
+}
+.menuangi{
+    display: flex;
+}
+.manuangi{
+    display: flex;
+}
+.hinh-do-an{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-left: 15px;
+}
+.monanngon{
+    width: 24%;
+    height: 700px;
+   
+}
+
+.monanngon{
+    opacity: 1;
+}
+.background-dichvu{
+    top: 10px;
+    display: block;
+     width: 98.999%;
+     margin: 0 auto;
+     border: white solid 0.1px;
+    background: url(Image/Trang\ Chủ/jollibee-kid-party-bg.png) center center ;
+   
+}
+.dichvujoli, .tanhuong{
+    color: #42210B;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+.dichvujoli{
+    margin: 100px 0 -20px 0;
+    color: #CA1133;
+    font-size: 180%;    
+}
+.dichvucuajoli{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.border-cover{
+    width: 33%;
+}
+.hinh1{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.dattiec,.don-lon,.club{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Bungee', cursive;
+}
+.don-hang-lon{
+    font-family: 'Bungee', cursive;
+    text-align: center;
+}
+
+
+.xemthem{  
+    font-family: 'Bungee', cursive;
+    padding: 4px 30px;
+    
+    color: white;
+    margin: 0 auto;
+    font-size: 80%;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: block;
+    border-radius: 3px;
+    background-color: #C62026;
+}
+.kidclub{
+    width: 71%;
+
+}
+.don-lon{
+    width: 65%;
+    
+}
+
+.xemthem1:hover{
+    background-color: #FFD477;
+    transition: 800ms;
+    color: #CE181F;
+}
+.maintrangchu{
+ 
+    height: 712px;
+    background:url(Image/Trang\ Chủ/ba.jpg)  no-repeat center center;
+    width: 100%;
+}
+.jollibeexinchao{
+    color: #C62026;
+    font-family: 'Bungee', cursive;
+    font-size: 200%;
+    padding-top: 80px;
+    margin-top: 20px;
+    text-align: center;
+}
+.chungtoilajollibee{
+    width:50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-weight: 350;
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+}
+.dathangmain:hover{
+    color: #FAC437;
+    transition: 800ms;
+
+}
+.dathangmain{
+    background-color: #CA1133;
+    width: 200px;
+    border-radius: 5px;
+    font-family: 'Bungee', cursive;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.tintucaside{
+    color:#CA1133;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Bungee', cursive;
+    padding: 40px 0 50px 0;
+}
+
+
+
+.hinhaside{
+    width: 24%;
+    height: 250px;
+    object-fit: cover;
+}
+.assidemain{
+    display: flex;
+    justify-content: space-around;
+}
+.xemthemdiv:hover{
+    background-color: #ee5a6b;
+color: #FAC437;
+transition: 500ms;
+
+}
+.xemthemdiv{
+    background-color: #CA1133;
+    color: white;
+    font-family: 'Bungee', cursive;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.xemmthemm{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+footer{
+    position: relative;
+    top: 10px;
+    z-index: 2;
+}
+
+.back-len:hover{
+    color: rgb(11, 11, 168);
+}
+.back-len{
+    float: right;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: 150%;
+    background-color: #CE181F;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    bottom: 30px;
+    transition: 4s ;
+    right: 30px;
+
+}
+@media screen and (max-width: 800px){
+.backgrounddo{ 
+width: 100%;
+margin-top: -70px;
+height: 300px;
+}
+.manuangi{
+    display: inline;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+}
+.monanngon{
+    width: 24%;
+    margin: 0 auto
+    
+}
+.dichvucuajoli{
+    display: inline;
+}
+.tanhuong{
+    margin-bottom: 20px;
+}
+.border-cover{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+.hinh1{
+    width: 50%;
+}
+.xemthem{  
+    margin: 0 auto;
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.assidemain{
+    display: block;
+}
+.hinhaside{
+    width: 50%;
+    
+}
+.hinhaside2{
+    float: right;
+}
+.hinhaside3{
+    margin-top: -5px;
+}
+.hinh-do-an{
+    width: 98%;
+}
+.dattiec,.don-hang-lon,.club{
+    margin-top: 30px;
+}
+.chungtoilajollibee{
+    width: 80%;
+}
+.tanhuong{
+    width: 80%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 600px){
+    .dathang{
+width: 30%;
+font-size: 50%;
+    }
+    .jollibeexinchao{
+margin-bottom: 0;
+    }
+    .monanngon{
+        height: 300px;
+    }
+.hinh-do-an{
+    margin: 0 auto;
+}
+}
+@media screen and (max-width: 300px){
+    .backgrounddo{
+        height: 400px;
+    }
+    .homnayangi{
+        font-size: 160%;
+    }
+    .monanngon{
+        width: 23.9%;
+    }
+    .dichvujoli{
+        height: 100px;
+    }
+    .jollibeexinchao{
+        font-size: 160%;
+    }
+    .chungtoilajollibee{
+        margin-top: 20px;
+    }
+}

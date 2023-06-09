@@ -1,0 +1,172 @@
+.body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #e97f7f;
+} 
+.body::-webkit-scrollbar-thumb {
+    background-color: #e71b1b;
+    
+}
+.body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(92, 67, 67, 0.3);
+    background-color: #F5F5F5;
+}
+.hang-1{
+    display: flex;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+.hang-2{
+    display: flex;
+}
+.border-cover{
+    width: 33.333333333%;
+    text-align: center;
+    border:  dashed 3px #FAC437;
+    border-top: none;
+}
+.tat-ca-hinh{
+    width: 80%;
+}
+.ten-mon-an{
+    font-size: 110%;
+    width: 70%;
+    line-height: 30px;
+    font-family: 'Bungee', cursive;
+    margin: 0 auto;
+    height: 90px;
+}
+.gia-tien{
+    font-size: 110%;
+    text-align: center;
+    color: #C81F34;
+    margin-bottom: 15px;
+    font-family: 'Bungee', cursive;
+}
+.dat-hang-di-nao{
+    width: 40%;
+    font-family: 'Bungee', cursive;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin-bottom:40px ;
+    background-color:#C81F34 ;
+}
+.dat-hang-di-nao:hover{
+    background-color: #ffd61f ;
+    transition: 0.8s;
+    color: rgb(92, 24, 24);
+}
+.tren-trai{
+    border-left: none;
+}
+.tren-phai{
+    border-right:none ;
+}
+.trai-phai-tren{
+    border-left:none ;
+    border-right:none ;
+}
+.mat-duoi{
+    border-bottom:none ;
+}
+.hinh-2-hang-2{
+    width: 95%;
+    margin-top: 24.5%;
+}
+.hinh-1-hang-2{
+    margin-top: 13%;
+}
+.shopping{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
+    padding: 13px 0;
+    float: right;
+   text-align: center;
+    font-size: 150%;
+    background: #FAC437;
+    width: 270px;
+    right: 5%;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    font-weight: 400px;
+    align-items: center;
+}
+.fa-shopping-cart{
+    font-size: 140%;
+}
+.stickyyy{
+    font-size: 80%;
+    margin-left:30px ;
+}
+footer{
+    position: relative;
+    top: 60px;
+}
+.chu-hang-mot{
+    height: 110px;
+}
+.br{
+    display: none;
+}
+.chu-hang-hai{
+    height: 110px;
+
+}
+@media screen and (max-width:750px) {
+    .hang-1, .hang-2{
+        display: inline;
+    }
+    .hang-1{
+        margin-top: 80px;
+    }
+    .border-cover{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .chu-hang-mot,.chu-hang-hai{
+        height: 50px;
+    }
+   
+    .tren-phai,.trai-phai-tren,.tren-trai{
+        border-left:none ;
+        border-right:none ;
+    border-bottom:  dashed 3px #FAC437;;
+    }
+    .hinh-2-hang-2{
+        width: 95%;
+        margin-top: 0;
+    }
+    .hinh-1-hang-2{
+        margin-top: 0;
+    }
+    footer{
+        position: relative;
+        top: 60px;
+    }
+    .mobile{
+        border-bottom:none ;
+    }
+}
+@media screen and (max-width:600px) {
+    .chu-hang-mot{
+        height: 80px;
+    }
+    .br{
+        display: block;
+    }
+    .shopping{
+    right: 4% ;
+        width: 250px;
+        bottom: 0px;
+    }
+}
+@media screen and (max-width:750px){
+    .chu-hang-mot{
+        height:110px ;
+    }
+    .chu-hang-hai{
+        height: 90px;
+    }
+}

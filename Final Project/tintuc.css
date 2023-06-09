@@ -1,0 +1,384 @@
+*{
+   /* border: black 1px solid;*/
+}
+.body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #e97f7f;
+} 
+.body::-webkit-scrollbar-thumb {
+    background-color: #e71b1b;
+    
+}
+.body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(92, 67, 67, 0.3);
+    background-color: #F5F5F5;
+}
+.lan1{
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.377) ,
+        rgba(0, 0, 0, 0.377)) 
+,    url(image/tintuc/news.jpg) no-repeat center center ;
+    background-size: cover;
+    color: white;
+    width: 99.8%;
+    height: 900px;
+    border: rgba(255, 255, 255, 0) 0.00001px solid;
+}
+.anhdautien{
+    position: relative;
+    background-color: black;
+    filter: brightness(50%);
+}
+
+.tanhuong{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+   
+    width: 500px;
+    height: 500px;
+    border-radius: 1300px;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.226) ,
+        rgba(0, 0, 0, 0.226)) 
+,    rgba(0, 0, 0, 0.342) no-repeat center center ;
+    background-size: cover;
+    
+    
+}
+
+.tintuc2{
+    margin: 20px auto;
+    font-size: 50px;
+    width: 60%;
+    display: block;
+    text-align: center;
+    padding-top: 170px;
+   
+}
+.vuong{
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -10px;
+    display: block;
+}
+.tanhuong2{
+    margin: 20px auto;
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#muoi{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.bao{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+.loai1, .loai2, .loai3 {
+    width:500px ;
+    border: 1px solid rgb(153, 145, 145);
+    background-color: #F4F4F4;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 8px ;
+
+}
+.hinh{
+    width: 92%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+
+
+.h3{
+    text-align: center;
+    color: black;
+    width: 92%;
+    margin: 0 auto;
+    font-family: 'Bungee', cursive;
+    line-height: 28px;
+    margin-top: 10px;
+   height: 95px;
+}
+.h3:hover{
+    color: #ca1133;
+}
+.tinnong{
+    text-align: center;
+    margin: 0 auto;
+    width: 92%;
+    margin-top: -5%;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.xemthem{
+    text-align: center;
+    margin-top: 50px;
+}
+.h1{
+    margin-bottom: 20px;
+}
+i{
+    font-size: 25px;
+}
+
+
+.tong{
+    position: relative;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.479) ,
+        rgba(0, 0, 0, 0.479)) 
+,    url(image/tintuc/transfer-bg.jpg) no-repeat center  center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: -50px;
+    z-index: -1000;
+    width: 99.9%;
+    height: 400px;
+}
+
+
+.dehinh{
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 100px;
+    color: white;
+}
+.quyen{
+    text-align: center;
+    margin: 0px auto;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-bottom: 0;
+    display: block;
+
+    
+}
+.fa-angle-double-down{
+    margin-top: -100px;
+}
+.ngang{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.luong{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+   
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.thongtin{
+    display: flex;
+    font-size: 22px;
+    width: 100%;
+    margin-top: -87px;
+    position: relative;
+    z-index: 1000;
+    background-color: #FAC437;
+    justify-content: center;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.tt{
+width: 33.333%;
+padding: 20px 0;
+text-align: center;
+font-family: 'Bungee', cursive;
+font-size: 80%;
+
+}
+.ttt{
+  
+    background-color: #C91133;
+}
+.tt:hover{
+    background-color: #C91133;
+    color: rgb(253, 253, 253);
+    transition: 1s;
+}
+.khung3{
+    border: 1px solid #FAC437;
+    background-color: #FAC437;
+    width: 89%;
+    position: relative;
+    z-index: 1000;
+    margin: 0 auto;
+    
+}
+.khungvang{
+    display: flex;
+    background-color: #FFDE94;
+    width: 89%;
+    margin: 0 auto;
+    
+    
+}
+.anhcuoi{
+    width: 25%;
+    margin: 0 auto;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.alot{
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: -20px;
+}
+footer{
+    position: relative;
+    top: 8px;
+    z-index: 5;
+    margin-top: -10px;
+}
+.back-len:hover{
+    color: rgb(11, 11, 168);
+}
+.back-len{
+    float: right;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: 150%;
+    background-color: #CE181F;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    bottom: 30px;
+    transition: 4s ;
+    right: 30px;
+
+}
+
+@media screen and (max-width:800px){
+    
+    .lan1{
+        height: 280px;
+        width: 99.5%;
+    }
+    .lucgiac{
+        margin-top: 20px;
+    }
+    .tintuc2{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    .tanhuong{
+     border: none;
+       width: 100%;
+       background: none;
+       font-size: 10px;
+       margin: 0 auto;
+       margin-top: -140px;
+    }
+
+   .bao{
+       
+       display: inline;
+   }
+   .hinh{
+       width: 95%;
+   }
+.loai1, .loai2, .loai3 {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+.h3{
+    margin: 0 auto;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.tinnong{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.xemthem{
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+.tong{
+    margin: 0;
+    margin-top: -50px;
+}
+.dehinh{
+    width: 100%;
+}
+.quyen{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 120px;
+}
+.ngang{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+  
+    margin-top: 0px;
+}
+.luong{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 30px;
+}
+.khung3{
+    display: flex;
+    width: 99%;
+   
+}
+
+.thongtin{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.tt{
+    font-size: 45%;
+    padding: 22px 0;
+}
+.khungvang{
+    flex-direction: column;
+    width: 100%;
+
+   
+}
+.anhcuoi{
+    width: 85%;
+ margin: 40px auto;
+ 
+}
+.alot{
+   margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+}

@@ -1,0 +1,312 @@
+
+.body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #e97f7f;
+} 
+.body::-webkit-scrollbar-thumb {
+    background-color: #e71b1b;
+    
+}
+.body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(92, 67, 67, 0.3);
+    background-color: #F5F5F5;
+}
+.lan1{
+    border: rgba(255, 255, 255, 0) solid 1px;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.479) ,
+        rgba(0, 0, 0, 0.479)) 
+,url(image/dichvu/news.jpg) no-repeat center center ;
+    background-size: cover;
+   height: 750px;
+}
+.tanhuong{
+    width: 480px;
+    height: 470px;
+   
+   color: white;
+    border-radius: 1300px;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.226) ,
+        rgba(0, 0, 0, 0.226)) 
+,    rgba(0, 0, 0, 0.342) no-repeat center center ;
+    background-size: cover;
+    margin: 0 auto;
+    border: solid 1px rgba(255, 255, 255, 0);
+    margin-top: 150px;
+    }
+.tintuc2{
+    font-size: 50px;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 155px;
+}
+.vuong{
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom:30px ;
+} 
+.tanhuong2{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#muoi{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.hang-1{
+    width: 60%;
+    margin: 0 auto;
+}
+.border-cover{
+    margin: 60px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+.chu-cach{
+    width: 100%;
+}
+.border-cover5{
+    display: flex;
+    width: 70%;
+    margin: 60px auto;
+    align-items: center;
+}
+.cach{
+    padding-left: 10px;
+    width: 98%;
+}
+.cach-duoi1{
+    float: left;
+} 
+.so1{
+    line-height: 40px;
+    width: 100%;
+    display: block;
+}
+.chu, .chu-2, .chu-3,.chu-4{
+    font-size: 300%;
+    color: #C62026;
+    font-family: 'Bungee', cursive;
+}
+.xemthem{
+    font-family: 'Bungee', cursive;
+    background-color: #C62026;
+    padding: 0 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.xemthem:hover{
+    background-color:rgb(253, 189, 25);
+    color: rgb(116, 71, 35);
+    transition: 800ms;
+}
+.hang-2{
+    box-shadow: 2px 2px 10px  black;
+    background-color: #EFEFEF;
+}
+.hinh-2{
+    width: 370px;
+}
+.hinh-3{
+    width: 320px;
+}
+.border-cover1{
+    display: flex;
+    width: 70%;
+    margin: 60px auto;
+    justify-content: center;
+    align-items: center;
+}
+.inline{
+    display: block;
+   margin-left: 50px;
+}
+.so1{
+    margin-bottom: 30px;
+}
+.can-so{
+    width: 100%;
+    margin-left: 60px;
+}
+.chu-2{
+    color: #A8B919;
+    line-height: 60px;
+}
+.chu-thich{
+    line-height: 25px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.hang-3{
+    background: none;
+}
+.hang-4{
+    background-color: #EFEFEF;
+    box-shadow: 2px 2px 10px  black;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.chu-3{
+    line-height: 60px;
+    color:#E97C00 ;
+}
+.border-cover3{
+    width: 65%;
+}
+.chu-4{
+  color: #5DC6D1;
+}
+footer{
+    position: relative;
+    top: 8px;
+    z-index: 5;
+    margin-top: -60px;
+
+    
+}
+
+.back-len:hover{
+    color: rgb(11, 11, 168);
+}
+.back-len{
+    float: right;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: 150%;
+    background-color: #CE181F;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    bottom: 30px;
+    transition: 4s ;
+    right: 30px;
+
+}
+@media screen and (max-width:1000px) {
+    
+    .inline{
+border: rgba(0, 0, 0, 0) 1px solid;
+    }
+    .border-cover1{
+        display: inline;
+    }
+    .hinh-2,.hinh-3{
+        width: 50%;
+        border: solid 1px rgba(0, 0, 0, 0);
+        margin: 0 auto;
+        display: block;
+    }
+    .cach{
+        text-align: center;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .chu{
+        margin: 0 auto;
+    }
+    .chu-2,.chu-3,.chu-4,.chu{
+        width: 100%;
+        display: block;
+       
+        line-height: 70px;
+    }
+    .chu-thich{
+        width:90%;
+        margin: 0 auto;
+    }
+    .xemthem{
+      display: block;
+      text-align: center;
+      width: 120px;
+      margin:10px auto 30px auto;
+
+    }
+    .hang-1,.hang-2,.hang-3,.hang-4{
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    .xem-xuong{
+        margin-bottom: 80px;
+    }
+    .border-cover1{
+        border: solid 1px rgba(0, 0, 0, 0);
+    }
+    .inline{
+        margin: 0 auto;
+    }
+    .cach{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .cach-duoi1{
+        width: 100%;
+        margin: 0 auto;
+        margin-top:-80px ;
+    }
+    .so1{
+        padding-bottom:60px ;
+        text-align: center;
+    }
+}
+@media screen and (max-width:600px) {
+    .tanhuong{
+        background: none;
+        border: none;
+        width: 100%;
+    }
+    .lan1{
+        height: 500px;
+    }
+    .cach{
+        width: 100%;
+        padding: 0;
+    }
+    .so1{
+        width: 100%;
+    }
+    
+    .border-cover3{
+        width: 80%;
+        padding-bottom: 50px;
+    }
+    .hinh-3{
+        margin-top: 20px;
+    }
+    .xem-xuong{
+        margin-bottom: 30px;
+    }
+    
+}
+@media screen and (max-width:300px) {
+    .tintuc2{
+        margin-top: 100px;
+        width: 90%;
+    }
+    .so1,.chu, .chu-4{
+        line-height: 40px;
+        font-size: 200%;
+    }
+    .vuong{
+        width: 80%;
+    }
+}
+

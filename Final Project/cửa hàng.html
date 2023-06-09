@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng - Jollibee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menu chính.css">
+    <link rel="stylesheet" href="cửa hàng.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body class="body">
+    <nav id="nav-menu1">
+        <a href=""></a> <img id="logo-menu" src="Image/Menu 1/LOGOJOLLIBEE.png" alt=""> 
+            <ul id="ul-menu1" class="scoll">
+                <span class="click"> 
+                <i class="fas fa-times"></i>
+                </span>
+                <span class="vietnamandenglish">
+                 <a class=" vn" href="">VN</a> <a class=" eng" href="">/ENG</a> 
+                </span>
+                <li class="li-menu1 trangchu"> <a class="a-menu1" href="Trangchu.html">TRANG CHỦ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="vejollibee1.html">VỀ JOLLIBEE</a> </li>
+                <li class="li-menu1 dropbox"> <a class="a-menu1" href="combo.html">THỰC ĐƠN</a>
+                
+                <ul class="menu-xo-xuong">
+                    <li class="li-xo-xuong"><a class="a-xo-xuong" href="combo.html"> <img class="hinh-trong-drop" src="Image/Menu 1/combo.png" alt=""  >COMBO</a> </li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="gagionvuive.html"><img class="hinh-trong-drop" src="Image/Menu 1/ga-gion-vui-ve.png" alt=""  >GÀ GIÒN VUI VẺ</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Gà Sốt Cay.html"><img class="hinh-trong-drop" src="Image/Menu 1/ga-sot-cay.png" alt=""  > GÀ SỐT CAY</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Mỳ Ý Sốt Bò Hầm.html"><img class="hinh-trong-drop" src="Image/Menu 1/mi-y.png" alt=""  >MỲ Ý SỐT BÒ HẦM</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="BurgerVaCơm.html"><img class="hinh-trong-drop" src="Image/Menu 1/burger-sandwich.png" alt=""  >BURGER & CƠM</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Phần Ăn Phụ.html"><img class="hinh-trong-drop" src="Image/Menu 1/phan-an-phu.png" alt=""  >PHẦN ĂN PHỤ</a></li>
+                    <li class="li-xo-xuong"> <a class="a-xo-xuong" href="Món Tráng Miệng.html"><img class="hinh-trong-drop" src="Image/Menu 1/mon-trang-mieng.png" alt=""  >MÓN TRÁNG MIỆNG</a></li>
+                </ul>
+            </li>
+                <li class="li-menu1"> <a class="a-menu1" href="khuyenmai.html">KHUYẾN MÃI</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="dichvu.html">DỊCH VỤ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="tintuc.html">TIN TỨC</a> </li>
+                <li class="li-menu1"> <a  style="  background-color: #F4D2D6;color: #C81F34;"class="a-menu1" href="cửa hàng.html">CỬA HÀNG</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="lienhe.html">LIÊN HỆ</a> </li>
+                <li class="li-menu1"> <a class="a-menu1" href="tuyển dụng.html">TUYỂN DỤNG</a> </li>
+                <li  class="li-menu1 icon-menu-an"><i class=" fab1 fab fa-facebook-f"></i><i class="fab1 fab fa-twitter"></i><i class="fab1 fab fa-google"></i></li>
+            </ul>
+            
+            <img id="hotline" src="Image/Menu 1/Hotline.png" alt="">
+            <div class="touch">
+                <span class="gach"></span>
+                <span class="gach"></span>
+                <span class="gach"></span>
+            </div>
+        </nav>
+        <div class="login"><i class="fas fa-user"></i><a class="dangnhapdangki" href="">Đăng ký / Đăng nhập</a></i>
+             <a class="subvn" href="">VN</a> <a class="subeng" href="">| ENG</a> 
+        </div>
+        <script>
+            const touch = document.querySelector(".touch");
+            const menu=document.querySelector("#ul-menu1"); 
+            touch.addEventListener("click", mobiMenu);
+            function mobiMenu(){
+                touch.classList.toggle("active");
+                menu.classList.toggle("active")
+            }
+            const click = document.querySelector(".click");
+            const ham=document.querySelector("#ul-menu1"); 
+            click.addEventListener("click", mobiMenu);
+            function mobiMenu(){
+                click.classList.toggle("active");
+                ham.classList.toggle("active")
+            }
+        </script>
+
+    <main class="mainhethongcuahang">
+        <p class="hethongcuahang">HỆ THỐNG CỬA HÀNG JOLLIBEE</p>
+        
+        
+            <form >
+                <select class="form"id="country" name="country">
+                  <option selected disabled>Chọn Vị Trí Cửa Hàng</option>
+                  <option value="TP Ho Chi Minh">TP Hồ Chí Minh</option>
+                  <option value="Bà Rịa – Vũng Tàu">Bà Rịa – Vũng Tàu</option>
+                  <option value="Bắc Giang">Bắc Giang</option>
+                  <option value="Bắc Kạn"> Bắc Kạn</option>
+                  <option value="Bạc Liêu"> Bạc Liêu</option>
+                  <option value="Bắc Ninh">Bắc Ninh</option>
+                  <option value="Bến Tre"> Bến Tre</option>
+                  <option value="Bình Định">Bình Định</option>
+                  <option value="Bình Dương">Bình Dương</option>
+                  <option value="Bình Phước">Bình Phước</option>
+                  <option value="Bình Phước">Bình Phước</option>
+                  <option value="Cà Mau">Cà Mau</option>
+                  <option value="Cần Thơ">Cần Thơ</option>
+                  <option value="Cao Bằng">Cao Bằng</option>
+                  <option value="Đà Nẵng">Đà Nẵng</option>
+                  <option value="Đắk Lắk">Đắk Lắk</option>
+                  <option value="Đắk Nông">Đắk Nông</option>
+                  <option value="Điện Biên">Điện Biên</option>
+                  <option value="Đồng Nai">Đồng Nai</option>
+                  <option value="Đồng Tháp">Đồng Tháp</option>
+                  <option value="Gia Lai">Gia Lai</option>
+                  <option value="Hà Giang">Hà Giang</option>
+                  <option value="Hà Nam">Hà Nam</option>
+                  <option value="Hà Nội">Hà Nội</option>
+                  <option value="Hà Tĩnh">Hà Tĩnh</option>
+                  <option value="Hải Dương">Hải Dương</option>
+                  <option value="Hải Phòng">Hải Phòng</option>
+                  <option value="Hậu Giang"> Hậu Giang</option>
+                  <option value="Hòa Bình"> Hòa Bình</option>
+                  <option value="Hưng Yên"> Hưng Yên</option>
+                  <option value="Khánh Hòa">Khánh Hòa</option>
+                  <option value="Kiên Giang">Kiên Giang</option>
+                  <option value="Kon Tum"> Kon Tum</option>
+                  <option value="Lai Châu"> Lai Châu</option>
+                  <option value="Lâm Đồng">Lâm Đồng</option>
+                  <option value="Lạng Sơn">Lạng Sơn</option>
+                  <option value="Lào Cai">Lào Cai</option>
+                  <option value="Long An">Long An</option>
+                  <option value="Nam Định">Nam Định</option>
+                  <option value="Nghệ An">Nghệ An</option>
+                  <option value="Ninh Bình">Ninh Bình</option>
+                  <option value="Ninh Thuận">Ninh Thuận</option>
+                  <option value="Phú Thọ">Phú Thọ</option>
+                  <option value="Phú Yên">Phú Yên</option>
+                  <option value="Quảng Bình">Quảng Bình</option>
+                  <option value="Quảng Nam">Quảng Nam</option>
+                  <option value="Quảng Ngãi">Quảng Ngãi</option>
+                  <option value="Quảng Ninh">Quảng Ninh</option>
+                  <option value="Quảng Trị">Quảng Trị</option>
+                  <option value="Sóc Trăng">Sóc Trăng</option>
+                  <option value="Sơn La">Sơn La</option>
+                  <option value="Tây Ninh">Tây Ninh</option>
+                  <option value="Thái Bình">Thái Bình</option>
+                  <option value="Thái Nguyên">Thái Nguyên</option>
+                  <option value="Thanh Hóa"> Thanh Hóa</option>
+                  <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                  <option value="Tiền Giang">Tiền Giang</option>
+                  <option value="Trà Vinh">Trà Vinh</option>
+                  <option value="Tuyên Quang">Tuyên Quang</option>
+                  <option value="Vĩnh Long">Vĩnh Long</option>
+                  <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                  <option value="Yên Bái">Yên Bái</option>
+                </select>
+              </form>
+              
+                <div class="timcuahang">
+              <a id="timkiemm" href="">TÌM KIẾM</a>
+                </div>
+                <div class="chiemdung">
+                    <div class="disflrx">
+            <img class="hinhbando" src="Image/cửa hàng/hinhcuahang.jpg" alt="">
+           <iframe id="bandocuajollie" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489.9337559880495!2d106.69050043902045!3d10.775265574749419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3b0c45b3af%3A0xa6668416b00b8542!2sJollibee%20-%20Saigonstar!5e0!3m2!1svi!2s!4v1638803023569!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+    </main>
+    <footer>
+        <div class="logofoot">
+        <img class="logofooter" src="Image/Menu 1/LOGOJOLLIBEE.png" alt="">
+        </div>
+        <div class="thongtindiachi">
+        <p id="diachi">Địa chỉ: Lầu 5, tòa nhà SCIC, 16 Trương Định, Phường Võ Thị Sáu, Quận 3, Tp. Hồ Chí Minh, Việt Nam</p>
+        <p id="tongdai">Tổng đài: 1900-1533</p>
+        <p id="hopthu">Hộp thư góp ý:</p>
+        <p id="feedback">jbvnfeedback@jollibee.com.vn</p>
+        <p id="guiphanhoi">Hoặc gửi phản hồi tại <a href="">ĐÂY</a> </p>
+        </div>
+        <img id="sodienthoai" src="Image/Menu 1/Hotline.png" alt="">
+
+    <div class="chinhsach">
+        <p><a  href="">Chính sách và quy định chung</a></p>
+        <p class="quydinh"><a class="quydinh"href="">Chính sách bảo mật thông tin</a></p>
+        <p class="quydinh"><a class="quydinh"href="">Chính sách bảo mật hoạt động</a></p>
+        <p class="quydinh"><a class="quydinh"href="">Liên Hệ</a></p>
+        <div class="an800">
+        <p class="hayketnoi">HÃY KẾT NỐI VỚI CHÚNG TÔI</p>
+        <i class="iconfab fab fa-facebook-f"></i>
+        <i class="iconfab fab fa-google fa-google1"></i>
+        </div>
+    </footer>
+
+</body>
+</html>
